@@ -496,6 +496,7 @@ navbar .right img {
   background-color: white;
   left: 67%;
   font-size: 12px;
+  border:1px solid #ccc;
 display: none;
 }
 .service_all dd,.navlist_all dd{

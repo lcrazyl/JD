@@ -1,6 +1,8 @@
 # JD  
 ## Project Objectives：
-in order to better connect with html, css, and javascript, i decided to write a jd page. i am a novice, and there is still a lot to learn.    
+In order to better connect with html, css, and javascript.   
+
+I decided to write a jd page. i am a novice, and there is still a lot to learn.    
 
 ## Contributors：    
 

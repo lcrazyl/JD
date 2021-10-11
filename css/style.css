@@ -523,7 +523,12 @@ navbar .right img {
   background-color: white;
   left: 67%;
   font-size: 12px;
+<<<<<<< HEAD
   display: none;
+=======
+  border:1px solid #ccc;
+display: none;
+>>>>>>> 8760ed34f9ca10fac9e8818afee27c06d0e64fd1
 }
 
 .service_all dd, .navlist_all dd {

@@ -14,6 +14,8 @@ nav {
   background-color: #E3E4E5;
 }
 
+/* @media min- */
+
 .address {
   /* height: 30px; */
   float: left;
@@ -38,7 +40,7 @@ nav {
   margin: 0;
   padding: 0;
   height: 30px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 .info ul li {
@@ -65,6 +67,7 @@ navbar {
   display: flex;
   justify-content: center;
   background-color: white;
+  margin-bottom: 20px;
 }
 
 navbar .center {
@@ -190,10 +193,11 @@ navbar .right img {
 }
 
 .fs {
+  width: 1170px;
   height: 480px;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin: 0 auto;
 }
 
 .fs section {
@@ -363,13 +367,16 @@ navbar .right img {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.user_news ul{
+
+.user_news ul {
   float: left;
   border-bottom: 1px solid rgb(223, 217, 217);
 }
-.user_news ul li{
+
+.user_news ul li {
   margin-bottom: 5px;
 }
+
 .user_news ul li a:first-child {
   display: inline-block;
   margin-right: 10px;
@@ -379,14 +386,13 @@ navbar .right img {
   color: red;
   text-align: center;
   line-height: 16px;
-
 }
-.user_news ul li a:last-child{
+
+.user_news ul li a:last-child {
   color: rgb(195, 168, 168);
-  
 }
 
-.address_all{
+.address_all {
   width: 290px;
   height: 500px;
   background-color: white;
@@ -394,22 +400,25 @@ navbar .right img {
   z-index: 100;
   display: none;
   word-wrap: break-word;
-  word-break:keep-all;
+  word-break: keep-all;
 }
-.address .jt{
+
+.address .jt {
   display: inline-block;
   height: 30px;
   width: 40px;
-
   text-align: center;
 }
-.address .jt:hover{
+
+.address .jt:hover {
   background-color: white;
 }
-.address:hover .address_all{
+
+.address:hover .address_all {
   display: block;
 }
-.address_all a{
+
+.address_all a {
   width: 40px;
   height: 30px;
   margin-left: 10px;
@@ -418,30 +427,38 @@ navbar .right img {
   text-align: center;
   line-height: 30px;
 }
-.address_all a:hover{
+
+.address_all a:hover {
   background-color: rgb(243, 234, 234);
 }
-.address_list{
+
+.address_list {
   border-bottom: 1px solid rgb(238, 225, 225);
 }
-.address_all section{
+
+.address_all section {
   font-size: 12px;
 }
-.address_all section dt{
+
+.address_all section dt {
   padding-left: 40px;
 }
-.address_all .adress_area{
+
+.address_all .adress_area {
   border-bottom: 1px solid rgb(238, 225, 225);
 }
-.address_all .adress_area dd{
+
+.address_all .adress_area dd {
   display: inline-block;
   width: 100px;
 }
-.address_all .adress_Sites dd{
+
+.address_all .adress_Sites dd {
   display: inline-block;
   width: 100px;
 }
-.my_all{
+
+.my_all {
   width: 180px;
   height: 150px;
   background-color: white;
@@ -451,24 +468,30 @@ navbar .right img {
   border: 1px solid #ccc;
   padding-left: 20px;
 }
-.info .my:hover .my_all{
+
+.info .my:hover .my_all {
   display: block;
 }
-.info .my:hover{
+
+.info .my:hover {
   background-color: white;
 }
-.my_all .my_top a{
+
+.my_all .my_top a {
   display: inline-block;
   margin-right: 20px;
 }
-.my_all .my_bottom a{
+
+.my_all .my_bottom a {
   display: inline-block;
   margin-right: 20px;
 }
-.my_all a:hover{
+
+.my_all a:hover {
   color: red;
 }
-.purchase_all{
+
+.purchase_all {
   width: 150px;
   height: 150px;
   border: 1px solid #ccc;
@@ -476,19 +499,23 @@ navbar .right img {
   position: absolute;
   z-index: 10;
   word-wrap: break-word;
-  word-break:keep-all;
+  word-break: keep-all;
   display: none;
 }
-.purchase_all a{
+
+.purchase_all a {
   margin-right: 10px;
 }
-.purchase:hover{
+
+.purchase:hover {
   background-color: white;
 }
-.purchase:hover .purchase_all{
+
+.purchase:hover .purchase_all {
   display: block;
 }
-.service_all{
+
+.service_all {
   width: 200px;
   height: 250px;
   position: absolute;
@@ -496,30 +523,34 @@ navbar .right img {
   background-color: white;
   left: 67%;
   font-size: 12px;
-display: none;
+  display: none;
 }
-.service_all dd,.navlist_all dd{
+
+.service_all dd, .navlist_all dd {
   margin: 0;
   padding: 0;
   display: inline-block;
   width: 72px;
   word-wrap: break-word;
-  word-break:keep-all;
+  word-break: keep-all;
   padding-top: 8px;
   color: #ccc;
- 
 }
-.service_all .top{
+
+.service_all .top {
   border-bottom: 1px solid #ccc;
 }
-.service:hover{
+
+.service:hover {
   background-color: white;
 }
-.service:hover .service_all{
+
+.service:hover .service_all {
   display: block;
 }
-.navlist_all{
-  width:80%;
+
+.navlist_all {
+  width: 80%;
   height: 180px;
   background-color: white;
   position: absolute;
@@ -529,21 +560,26 @@ display: none;
   display: none;
   border: 1px solid #ccc;
 }
-.navlist_all section{
+
+.navlist_all section {
   float: left;
   width: 25%;
 }
-dd:hover{
+
+dd:hover {
   color: red;
   cursor: pointer;
 }
-.navlist:hover{
+
+.navlist:hover {
   background-color: white;
 }
-.navlist:hover .navlist_all{
+
+.navlist:hover .navlist_all {
   display: block;
 }
-.allItem{
+
+.allItem {
   width: 800px;
   height: 480px;
   background-color: white;
@@ -553,6 +589,13 @@ dd:hover{
   top: 28%;
   display: none;
 }
-.cate_menu:hover .allItem{
+
+.cate_menu:hover .allItem {
   display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  #banner_right{
+    display: none;
+  }
 }

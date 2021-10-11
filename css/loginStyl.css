@@ -1,0 +1,143 @@
+header {
+    width: 100%;
+    height: 110px;
+    box-shadow: 10px 0 5px 5px rgb(240, 233, 233);
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header .logo {
+    width: 800px;
+    display: flex;
+}
+
+header .logo img {
+    height: 50px;
+    height: 110px;
+    margin-left: 10%;
+}
+
+header .logo p {
+    width: 120px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+header .re_lo {
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .re_lo {
+    align-items: flex-end;
+}
+
+header .re_lo a {
+    color: red;
+}
+
+main {
+    height: 475px;
+    background:#FF6E71;
+}
+    
+main .banner{
+    width: 990px;
+    height: 475px;
+    margin: 0 auto;
+    position: relative;
+}
+main .login_panel{
+    height: 436px;
+    width: 346px;
+    background-color: white;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+main .login_content{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    /*  align-items: center; */
+}
+main .login_content .login_way{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+main .login_content .QR_code{
+    width: 170px;
+    height: 163px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+main .login_content .mask{
+    width: 150px;
+    height: 160px;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 160px;
+}
+main .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+main .login_content .adventage{
+    display: flex;
+}
+main .login_content .text a{
+    color: red;
+}
+main .login_content .text .adventage{
+    justify-content: space-between;
+}
+main .warn{
+    background-color: #fff8f0;
+}
+main .icon{
+    display: flex;
+    background: #fcfcfc;
+    justify-content: space-around;
+    font-size: 13px;
+
+}
+main .icon div:last-child a:last-child{
+    color: red;
+}
+
+footer{
+    width: 100%;
+    height: 110px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #999;
+}
+footer a{
+    padding: 0 5px 0 5px;
+    border-right: 1px solid #999;
+}
+footer .top{
+    margin-bottom: 10px;
+}

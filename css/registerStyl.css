@@ -1,0 +1,171 @@
+header {
+    width: 100%;
+    height: 110px;
+    box-shadow: 10px 0 5px 5px rgb(240, 233, 233);
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header .logo {
+    width: 50%;
+    display: flex;
+}
+
+header .logo img {
+    height: 50px;
+    height: 110px;
+    margin-left: 10%;
+}
+
+header .logo p {
+    width: 120px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+header .re_lo {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .re_lo {
+    align-items: flex-end;
+}
+
+header .re_lo a {
+    color: red;
+}
+
+main {
+    background: FFFFFF;
+}
+
+main {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+main .Process {
+    display: flex;
+    justify-content: center;
+
+}
+
+main .Process .num_active {
+    background: red;
+}
+main .Process .con_active{
+    color: red;
+}
+
+main .num {
+    width: 30px;
+    height: 30px;
+    background: #ccc;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+main .line {
+    margin-top: 25px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: #ccc;
+    align-self:center;
+
+}
+main .Process .ld{
+    align-self:flex-start;
+}
+main .Process div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   width: 20%;
+}
+
+main .content {
+    font-size: 12px;
+    justify-self: center;
+}
+
+/*main .Process_content p{
+   display: flex;
+   flex: 1; 
+}*/
+form{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+select{
+    width: 140px;
+    overflow: hidden;
+    height: 60px;
+    outline: none;
+    position: absolute;
+    top: 37%; 
+}
+form input{
+    height: 54px;
+}
+form input[type='submit']{
+    background-color: white;
+    cursor: pointer;
+    border: 0;
+
+}
+
+form input:nth-of-type(1){
+    width: 250px;
+    font-size: 14px;
+    text-indent: 10px;
+    align-self: flex-end;
+}
+
+form input:nth-of-type(2){
+    border: 1px solid #ccc;
+}
+
+form input:nth-of-type(3){
+    background-color: red;
+    color: white;
+}
+
+.other{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    width: 100%;
+    height: 110px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #999;
+}
+footer a{
+    padding: 0 5px 0 5px;
+    border-right: 1px solid #999;
+}
+footer .top{
+    margin-bottom: 10px;
+}

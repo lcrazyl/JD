@@ -900,7 +900,6 @@ dd:hover {
   font-size: 12px;
   text-align: center;
 }
-<<<<<<< HEAD
 
 .cheap{
   width: 100%;
@@ -1162,7 +1161,7 @@ dd:hover {
 }
 .cheap .cheap-box .right a:hover{
   opacity: 0.8;
-=======
+}
 #limit .timebanner #leftBtn{
   width: 20px;
   height: 30px;
@@ -1223,5 +1222,4 @@ dd:hover {
 #limit .timeimg .tidown:hover{
   background: red;
   color: #fff;
->>>>>>> c32d90e1e872227fcd7065b69faf25182c619313
 }

@@ -712,11 +712,38 @@ dd:hover {
   height: 260px;
   background: pink;
   float: left;
-
+  position: relative;
+  overflow: hidden;
 }
 #limit .timeimg{
   width: 200px;
   height: 260px;
   background: skyblue;
   float: left;
+}
+
+#limit .timebanner .img-list{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 2400px;
+}
+#limit .timebanner .img-list li{
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 260px;
+
+}
+#limit .timebanner .img-list img{
+  width: 200px;
+  height: 200px;
+
+}
+#limit .timebanner .img-list li a p{
+  font-size: 12px;
+  text-align: center;
 }

@@ -1,4 +1,4 @@
-window.onload = function () {
+
     var hoursDom = document.querySelector("#hours")
     var minutesDom = document.querySelector("#minutes")
     var secondsDom = document.querySelector("#seconds")
@@ -19,4 +19,3 @@ window.onload = function () {
         }
     }, 1000)
     
-}

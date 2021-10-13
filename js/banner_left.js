@@ -10,9 +10,6 @@ window.onload=function(){
         var idx = 0;
         var lock = true;
 
-
-        console.log(1);
-
         rightBtn.onclick = function () {
             if (!lock) {
                 return;

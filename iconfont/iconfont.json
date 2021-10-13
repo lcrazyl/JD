@@ -18,6 +18,20 @@
       "font_class": "jiantou_liebiaoxiangzuo",
       "unicode": "eb04",
       "unicode_decimal": 60164
+    },
+    {
+      "icon_id": "4624184",
+      "name": "下一步",
+      "font_class": "xiayibu",
+      "unicode": "ebef",
+      "unicode_decimal": 60399
+    },
+    {
+      "icon_id": "12754195",
+      "name": "右箭头",
+      "font_class": "youjiantou_huaban",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
     }
   ]
 }

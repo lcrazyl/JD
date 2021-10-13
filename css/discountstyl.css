@@ -1,0 +1,120 @@
+a {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+.time {
+    height: 70px;
+    margin: 0 auto;
+    border-bottom: 2px solid red;
+    
+}
+
+.time div {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.time section {
+    width: 250px;
+    height: 70px;
+    position: relative;
+   text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+   
+}
+
+.time section::before {
+  
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background: red;
+        transform: skew(-30deg);
+        
+}
+
+.shape-left {
+    float: left;
+    width: 200px;
+    height: 500px;
+    /* 倒三角 */
+    shape-outside: polygon(0 0, 100% 0, 0% 100%);
+}
+
+.shape-right {
+    float: right;
+    width: 200px;
+    height: 500px;
+    /* 正三角 */
+    shape-outside: polygon(100% 0, 100% 100%, 0 100%);
+}
+
+.dis_ul {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dis_ul li {
+    list-style: none;
+    width: 290px;
+    height: 400px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 5px 1px #ccc;
+}
+
+.dis_ul li .img {
+    margin-top: 40px;
+    width: 180px;
+    height: 230px;
+}
+
+.dis_ul li .img img {
+    width: 100%;
+    transition: .3s;
+}
+
+.dis_ul li .img img:hover {
+    transform: translateY(-10px);
+}
+
+.dis_ul li .ad {
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.dis_ul li .ad p {
+    font-size: 25px;
+    /* line-height: 290px; */
+    color: red;
+}
+
+.dis_ul li .ad button {
+    width: 100px;
+    height: 40px;
+    border: 0;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

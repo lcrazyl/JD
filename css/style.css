@@ -856,7 +856,6 @@ dd:hover {
 #limit .timebanner {
   width: 810px;
   height: 260px;
-  background: pink;
   float: left;
   position: relative;
   overflow: hidden;
@@ -864,8 +863,9 @@ dd:hover {
 #limit .timeimg{
   width: 200px;
   height: 260px;
-  background: skyblue;
   float: left;
+  text-align: center;
+  background: linear-gradient(#fff,rgba(255, 255, 255, 0.2),#fff,skyblue);
 }
 
 #limit .timebanner .img-list{
@@ -882,7 +882,14 @@ dd:hover {
   padding: 0;
   width: 200px;
   height: 260px;
-
+}
+#limit .timebanner .img-list li p:nth-of-type(1){
+  color: #999;
+}
+#limit .timebanner .img-list li p:nth-of-type(2){
+  color: red;
+  font-weight: 900;
+  font-size: 13px;
 }
 #limit .timebanner .img-list img{
   width: 200px;
@@ -892,4 +899,65 @@ dd:hover {
 #limit .timebanner .img-list li a p{
   font-size: 12px;
   text-align: center;
+}
+#limit .timebanner #leftBtn{
+  width: 20px;
+  height: 30px;
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  top:50%;
+  margin-top:-15px;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  display: none;
+}
+#limit .timebanner #rightBtn{
+  display: none;
+  width: 20px;
+  height: 30px;
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  top:50%;
+  margin-top:-15px;
+  border-radius: 15px 0 0 15px;
+  cursor: pointer;
+}
+#limit .timeimg img{
+  padding-top: 25px;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}
+#limit .timeimg .titop{
+  font-size: 15px;
+  color: #999;
+}
+#limit .timeimg .ticenter{
+  font-size: 15px;
+  font-weight: 900;
+}
+#limit .timeimg .tidown{
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: 1s;
+  font-weight: 900;
+}
+#limit .timeimg .tidown:hover{
+  background: red;
+  color: #fff;
 }

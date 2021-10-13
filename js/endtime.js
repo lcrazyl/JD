@@ -18,5 +18,5 @@ window.onload = function () {
             clearInterval(sh)
         }
     }, 1000)
-
+    
 }

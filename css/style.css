@@ -893,3 +893,265 @@ dd:hover {
   font-size: 12px;
   text-align: center;
 }
+
+.cheap{
+  width: 100%;
+  /* height: 340px; */
+  /* background-color: red; */
+}
+.cheap .cheap-box{
+  width: 1190px;
+  height: 340px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.cheap .cheap-box .left{
+  width: 590px;
+  height: 340px;
+  margin-right: 10px;
+  float: left;
+}
+.cheap .cheap-box  .left-hd{
+  padding: 0 20px;
+  height: 60px;
+}
+.cheap .cheap-box  .left-hd .day{
+  display: inline-block;
+  position: relative;
+  height: 32px;
+  margin: 12px 0 0;
+}
+.cheap .cheap-box .left-hd .day .day-t{
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  line-height: 32px;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.cheap .cheap-box .left-hd .day i{
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 9px;
+  left:10px;
+  float: left;
+  font-size: 16px;
+  color: orange;
+}
+.cheap .cheap-box .left .left-bd{
+  width: 590px;
+  height: 285px;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box{
+  width: 560px;
+  height: 285px;
+  padding: 0 15px 15px 15px;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box{
+  position: relative;
+  width: 560px;
+  height: 270px;
+
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hd{
+  position: absolute;
+  bottom: 104%;
+  right: 0;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hd #hd-item{
+  position: relative;
+  margin:0 13.5px;
+  float: left;
+  width: 33px;
+  height: 21px;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hd #hd-item a{
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  color: #999;
+  line-height: 19px;
+  padding-bottom: 2px;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hd #hd-item .line{
+  width: 28px;
+  height: 3px;
+  background-color:crimson;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb{
+  width: 560px;
+  height: 270px;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .img-hb-left{
+  width: 170px;
+  height: 270px;
+  background-color: #E3E4E5;
+  float: left;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .img-hb-left .low{
+  width: 90px;
+  height: 24px;
+  background-color: orange;
+  line-height: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .img-hb-left .img{
+  width: 100px;
+  height: 100px;
+  margin: 20px 35px 15px 35px;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .img-hb-left .img img{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .img-hb-left .jianjie{
+  text-align: center;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .img-hb-left .price{
+  font-size: 18px;
+  color: red;
+  text-align: center;
+  margin: 10px 0;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .img-hb-left .num{
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .img-hb-left .num span{
+  color: red;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .Fimgs{
+  width: 380px;
+  height: 265px;
+  float: left;
+  /* background-color: #e5d790; */
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .left-r-box1{
+  width: 170px;
+  height: 89px;
+  margin-left: 20px;
+  margin-top: 30px;
+  float: left;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .left-r-box1 img{
+  width: 74px;
+  height: 74px;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .left-r-box1 a{
+  width: 170px;
+  height: 89px;
+  display: block;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .left-r-box1 a .img-txt{
+  float: left;
+}
+
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .left-r-box1 a .img1{
+  width: 74px;
+  height: 74px;
+  position: relative;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .left-r-box1 a .img1 span{
+  width: 74px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .left-r-box1 a .txt{
+  margin-left: 81px;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .left-r-box1 a .txt .title{
+  font-size: 14px;
+}
+.cheap .cheap-box .left .left-bd .left-bd-box .img-box .img-hb .left-r-box1 a .txt .price{
+  color: red;
+  margin-top: 10px;
+}
+.cheap .cheap-box .right{
+  width: 590px;
+  height: 340px;
+  float: left;
+}
+.cheap .cheap-box .right .right-bottom{
+  width: 590px;
+  height: 285px;
+}
+.cheap .cheap-box .right .right-bottom .bsd{
+  width: 270px;
+  height: 270px;
+  background-color: #E3E4E5;
+  float: left;
+}
+.cheap .cheap-box .right .right-bottom .bsd .bsd-logo {
+  padding-top: 10px;
+}
+.cheap .cheap-box .right .right-bottom .bsd .bsd-logo img{
+  width: 50px;
+  height: 25px;
+}
+.cheap .cheap-box .right .right-bottom .bsd>div{
+  text-align: center;
+
+}
+.cheap .cheap-box .right .right-bottom .bsd .txt1{
+  margin-top: 10px;
+  font-weight: 700;
+}
+.cheap .cheap-box .right .right-bottom .bsd .txt2{
+  margin-top: 10px;
+  font-size: 12px;
+}
+.cheap .cheap-box .right .right-bottom .bsd .txt2 a{
+  color: #999;
+}
+.cheap .cheap-box .right .right-bottom .bsd .img{
+  margin-top: 10px;
+}
+.cheap .cheap-box .right .right-bottom .bsd .img img{
+  width: 110px;
+  height: 110px;
+}
+.cheap .cheap-box .right .right-bottom .logo{
+  float: left;
+  width: 240px;
+  height: 270px;
+  margin-left: 20px;
+}
+.cheap .cheap-box .right .right-bottom .logo .logo-item{
+  width: 120px;
+  height: 90px;
+  float: left;
+}
+.cheap .cheap-box .right .right-bottom .logo .logo-item a{
+  display: block;
+}
+.cheap .cheap-box .right .right-bottom .logo .logo-item a img{
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  margin-left:20px ;
+}
+.cheap .cheap-box .right .right-bottom .logo .logo-item .logo-t a{
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+.cheap .cheap-box .right a{
+  opacity: 1;
+}
+.cheap .cheap-box .right a:hover{
+  opacity: 0.8;
+}

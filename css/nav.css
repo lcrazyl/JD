@@ -1,0 +1,374 @@
+
+a{
+    color: black;
+    text-decoration: none;
+}
+nav {
+    width: 1200px;
+    margin: 0 auto;
+    height: 30px;
+    background-color: #E3E4E5;
+}
+
+.address {
+    float: left;
+    box-sizing: border-box;
+    width: 650px;
+    line-height: 30px;
+    padding-left: 100px;
+}
+
+/* nav */
+
+.info {
+    height: 30px;
+    float: right;
+    width: 550px;
+}
+
+/*  nav ul*/
+
+.info ul {
+    /* width: 50px; */
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    /* margin-left: 100px; */
+}
+
+.info ul li {
+    list-style: none;
+    float: left;
+    width: 50px;
+    height: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid #ccc;
+}
+
+.info ul li a {
+    font-size: 12px;
+    line-height: 30px;
+    color: rgb(177, 162, 162);
+}
+
+.info ul li a:hover {
+    color: red;
+}
+
+navbar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+navbar .center {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+navbar .center .top {
+    width: 546px;
+}
+
+navbar .center .top form {
+    display: block;
+    width: 589px;
+    position: relative;
+}
+
+navbar .center .car {
+    width: 100px;
+    height: 36px;
+    margin-left: 100px;
+    margin-top: 24px;
+    border: 1px solid #ccc;
+    /* position: absolute; */
+}
+
+navbar .center .car a {
+    color: red;
+    line-height: 36px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+navbar .center .top input:first-child {
+    width: 589px;
+    float: left;
+    border: 2px solid red;
+    height: 36px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+navbar .center .top input:last-child {
+    float: right;
+    width: 50px;
+    border: 0;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    background-color: red;
+    color: white;
+}
+
+navbar .center .top .form-group {
+    width: 546px;
+    height: 26px;
+    margin-top: 24px;
+}
+
+navbar .center .bottom ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+navbar .center .bottom ul li {
+    list-style: none;
+    float: left;
+}
+
+navbar .center .bottom ul li a {
+    font-size: 12px;
+    padding-right: 15px;
+    color: #ccc;
+}
+
+navbar .center .bottom ul li .active {
+    color: red;
+}
+
+navbar .center .bottom ul li a:hover {
+    color: red;
+}
+
+navbar .right img {
+    margin-top: 10px;
+    height: 66px;
+    width: 66px;
+    margin-left: 100px;
+    box-shadow: 0 0 3px 3px #ccc;
+    padding: 5px;
+}
+
+.dh {
+    width: 630px;
+}
+
+.dh ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.dh ul li {
+    list-style: none;
+    float: left;
+    width: 70px;
+}
+
+.dh ul li a {
+    width: 70px;
+    float: left;
+    font-size: 15px;
+    text-align: center;
+}
+
+.dh .active {
+    font-weight: 900;
+    color: red;
+}
+
+.address_all {
+    width: 290px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    display: none;
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+
+.address .jt {
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.address .jt:hover {
+    background-color: white;
+}
+
+.address:hover .address_all {
+    display: block;
+}
+
+.address_all a {
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+
+.address_all a:hover {
+    background-color: rgb(243, 234, 234);
+}
+
+.address_list {
+    border-bottom: 1px solid rgb(238, 225, 225);
+}
+
+.address_all section {
+    font-size: 12px;
+}
+
+.address_all section dt {
+    padding-left: 40px;
+}
+
+.address_all .adress_area {
+    border-bottom: 1px solid rgb(238, 225, 225);
+}
+
+.address_all .adress_area dd {
+    display: inline-block;
+    width: 100px;
+}
+
+.address_all .adress_Sites dd {
+    display: inline-block;
+    width: 100px;
+}
+
+.my_all {
+    width: 180px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    display: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.info .my:hover .my_all {
+    display: block;
+}
+
+.info .my:hover {
+    background-color: white;
+}
+
+.my_all .my_top a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.my_all .my_bottom a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.my_all a:hover {
+    color: red;
+}
+
+.purchase_all {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    word-wrap: break-word;
+    word-break: keep-all;
+    display: none;
+}
+
+.purchase_all a {
+    margin-right: 10px;
+}
+
+.purchase:hover {
+    background-color: white;
+}
+
+.purchase:hover .purchase_all {
+    display: block;
+}
+
+.service_all {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    left: 67%;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.service_all dd, .navlist_all dd {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 72px;
+    word-wrap: break-word;
+    word-break: keep-all;
+    padding-top: 8px;
+    color: #ccc;
+}
+
+.service_all .top {
+    border-bottom: 1px solid #ccc;
+}
+
+.service:hover {
+    background-color: white;
+}
+
+.service:hover .service_all {
+    display: block;
+}
+
+.navlist_all {
+    width: 80%;
+    height: 180px;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    left: 4%;
+    font-size: 12px;
+    display: none;
+    border: 1px solid #ccc;
+}
+
+.navlist_all section {
+    float: left;
+    width: 25%;
+}
+
+dd:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.navlist:hover {
+    background-color: white;
+}
+
+.navlist:hover .navlist_all {
+    display: block;
+}

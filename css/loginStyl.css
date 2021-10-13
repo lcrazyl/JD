@@ -81,6 +81,12 @@ main .login_content .QR_code{
     margin-bottom: 20px;
     position: relative;
 }
+main .login_content .QR_code img:last-child{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
 main .login_content .mask{
     width: 150px;
     height: 160px;

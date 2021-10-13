@@ -793,3 +793,103 @@ dd:hover {
     display: none;
   }
 }
+
+#limit{
+  width: 1200px;
+  height: 260px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 3px 1px #ccc;
+  margin:0 auto;
+  margin-top: 20px;
+  background:#fff;
+}
+#limit .spike{
+  width: 190px;
+  background-image: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/4a15d8883775742e3efbb850ae14def7.png);
+  height: 260px;
+  float: left;
+  position: relative;
+}
+#limit .spike .top{
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  left: 35px;
+}
+#limit .spike .time {
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  top:150px;
+  left: 30px;
+}
+#limit .spike .time span{
+  margin-left: 5px;
+  font-weight: 500;
+}
+#limit .spike .endtime{
+  position: absolute;
+  top: 190PX;
+  font-size: 20px;
+  color: #fff;
+  left: 25px;
+}
+#limit .spike .endtime strong{
+  display: block;
+  width: 10px;
+  float: left;
+  height: 30px;
+  line-height: 30PX;
+  padding-left:10px ;
+  padding-right:5px ;
+}
+#limit .spike .endtime span{
+  display: block;
+  float: left;
+  width: 30PX;
+  height: 30px;
+  line-height: 30px;
+  background: #363634;
+  text-align: center;
+}
+#limit .timebanner {
+  width: 810px;
+  height: 260px;
+  background: pink;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+#limit .timeimg{
+  width: 200px;
+  height: 260px;
+  background: skyblue;
+  float: left;
+}
+
+#limit .timebanner .img-list{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 2400px;
+}
+#limit .timebanner .img-list li{
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 260px;
+
+}
+#limit .timebanner .img-list img{
+  width: 200px;
+  height: 200px;
+
+}
+#limit .timebanner .img-list li a p{
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,28 +1,42 @@
-a{
+a {
     text-decoration: none;
     color: black;
 }
-.main{
+
+.main {
     width: 1200px;
     height: 500px;
     margin: 0 auto;
-    background-color: skyblue;
 }
-.main .smallImg{
+
+.main .smallImg {
     width: 400px;
     height: 500px;
-    background-color: green;
+    float: left;
+    margin-right: 10px;
 }
-.main .smallImg .top{
+.main .smallImg .bottom{
+    height: 100px;
+    width: 400px;
+}
+.main .smallImg .bottom img{
+    height: 98px;
+    width: 100px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+.main .smallImg .top {
     width: 400px;
     height: 400px;
     position: relative;
 }
-.main .smallImg .top img{
+
+.main .smallImg .top img {
     /* width: 100%; */
     height: 100%;
 }
-.main .smallImg .top .mask{
+
+.main .smallImg .top .mask {
     width: 100px;
     height: 100px;
     opacity: .5;
@@ -32,10 +46,12 @@ a{
     left: 0;
     display: none;
 }
-.main .smallImg .top .mask:hover{
+
+.main .smallImg .top .mask:hover {
     cursor: move;
 }
-.main .bigImg{
+
+.main .bigImg {
     width: 500px;
     height: 500px;
     position: absolute;
@@ -46,19 +62,118 @@ a{
     border: 1px solid black;
     z-index: 10;
 }
-.main .bigImg img{
+
+.main .bigImg img {
     width: 800px;
     height: 800px;
     position: absolute;
 }
-.main .right{
-    width: 800px;
+
+.main .right {
+    width: 780px;
     height: 500px;
-    background-color: red;
-    position: absolute;
-    top: 221px;
-    left: 575px;
+    float: right;
 }
-.main .right .content{
-    /* display: flex; */
+
+.main .right .content .title {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.main .right .content .small_title {
+    font-size: 12px;
+    color: red;
+}
+
+.main .right .content .dis_time {
+    height: 30px;
+    background: url(../img/dispanelbg.jpg) no-repeat;
+    background-size: 100% 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .right .content .dis_time p {
+    color: white;
+}
+
+.main .right .content .dis_time aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .right .content .dis_time span {
+    width: 30px;
+    height: 30px;
+    background: rgb(29, 28, 28);
+    margin-right: 5px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+}
+
+.main .right .content .dis_time a {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding-right: 10px;
+    font-weight: 900;
+}
+
+.main .right .content .dis_panel {
+    background-color: rgb(240, 235, 235);
+    margin-top: -15px;
+}
+
+/* .main .right .content .price{
+    display: flex;
+} */
+
+.main .right .content .dis_panel p {
+    color: #ccc;
+}
+
+.main .right .content .price a {
+    font-size: 30px;
+    color: red;
+}
+
+.main .right .content .price span {
+    color: black;
+    font-weight: 500;
+    font-size: 12px;
+}
+.main .right .content .giveaway{
+    display: flex;
+    align-items: flex-start;
+}
+.main .right .content .giveaway a{
+    height: 20px;
+    width: 25px;
+    color: red;
+    font-size: 10px;
+    border: 1px solid red;
+    padding: 1px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+.delivery p,.select p{
+    color: #ccc;
+}
+.buy input{
+    width: 50px;
+    height: 40px;
+}
+.buy button{
+    width: 120px;
+    height: 50px;
+    background: red;
+    border: 0;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
 }

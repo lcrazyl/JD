@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>京东秒杀-正品保证、天天低价、限时限量</title>
+    <title>京东商城 - 购物车</title>
     <link rel="icon" href="//www.jd.com/favicon.ico" mce_href="//www.jd.com/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="../css/discountstyl.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/d1.css">
+    <link rel="stylesheet" href="../css/car.css">
     <script src="../js/jquery-1.10.1.min.js"></script>
-    <script src="../js/count.js"></script>
-    <script src="../js/discountData.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/car.js"></script>
+    <script src="../js/renderCar.js"></script>
 </head>
 
 <body>
@@ -277,7 +277,7 @@
 
 
                 <div class="car">
-                    <a href="">我的购物车</a>
+                    <a href="./car.html">我的购物车</a>
                 </div>
             </div>
             <div class="right" id="rwm">
@@ -285,23 +285,39 @@
             </div>
         </navbar>
     </header>
-    <div class="time">
-        <div>
-            <section>
-                正在秒杀
-                <p></p>
-            </section>
 
-        </div>
+    <main>
+        <p class="shop_tip">全部商品<a></a></p>
+        <table >
+            <thead>
 
-    </div>
-
-    <script>
-       
-    </script>
-    <ul class="dis_ul">
-    </ul>
-
+                <th>
+                    <span>商品</span>
+                </th>
+                <th>
+                    <span>单价</span>
+                </th>
+                <th>
+                    <span>数量</span>
+                </th>
+                <th>
+                    <span>小计</span>
+                </th>
+                <th>
+                    <span>操作</span>
+                </th>
+            </thead>
+            <tbody class="car_tbody">
+            </tbody>
+            <tfoot>
+                <tr class="foot">
+                   <td><p>总价：<a href=""></a></p></td>
+                   <td><button >结算</button></td>
+                </tr>
+               
+            </tfoot>
+        </table>
+    </main>
 </body>
 
 </html>

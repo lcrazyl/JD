@@ -4,7 +4,7 @@
     var secondsDom = document.querySelector("#seconds")
     var sh = setInterval(function () {
         var d = new Date();
-        var d1 = new Date(2021, 9, 13, 18, 0, 0);
+        var d1 = new Date(2021, 10, 13, 18, 0, 0);
         var num = d1 - d;
         var seconds = parseInt(num / 1000);
         var minutes = parseInt(seconds / 60);

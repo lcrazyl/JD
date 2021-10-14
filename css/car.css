@@ -1,0 +1,97 @@
+main {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+main .shop_tip {
+    font-weight: 900;
+    color: red;
+}
+
+main .shop_tip a {
+    padding-left: 10px;
+    color: red;
+}
+
+main table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+main table td {
+    width: 140px;
+    height: 100px;
+}
+
+main table img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+main table thead {
+    background-color: #f3f3f3;
+    height: 50px;
+}
+
+main #first {
+    width: 50px;
+}
+
+main tbody input {
+    display: block;
+}
+
+main tbody td {
+    text-align: center;
+}
+
+main tbody input[type='number'] {
+    width: 80px;
+    margin-left: 100px;
+}
+
+main tbody input[type='checkbox'] {
+    margin-left: 10px;
+}
+
+main table tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+.del{
+    cursor: pointer;
+}
+.name{
+    font-size: 14px;
+    
+}
+
+/* tfoot  */
+
+tfoot button{
+   width: 100px;
+   height: 40px;
+   border: 0;
+   background-color: red;
+   color: white;
+   font-weight: 900;
+   font-size: 18px;
+   text-align: center;
+   cursor: pointer;
+    float: right;
+}
+tbody h1{
+    text-align: center;
+    width: 200px;
+    height: 200px;  
+    margin-left: 500px;
+    color: red;   
+    
+}
+tbody h1 a{
+    color: red;
+}

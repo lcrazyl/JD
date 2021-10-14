@@ -9,19 +9,6 @@ $(window).load(function () {
         return false;
     })
 
-
-    $(".cate_menu ul li").mouseenter(function (e) {
-        let idx = $(e.target).index();
-        $(".allItem").css("display", "none");
-        $(".allItem").eq(idx).css("display", "block");
-    })
-
-    $(".cate_menu ul li").mouseleave(function () {
-        $(".allItem").css("display", "none");
-    })
-
-
-    // 创建元素
     let divArray = [];
     for (let i = 0; i < 18; i++) {
         $div = $(`<div class='allItem'>
@@ -30,9 +17,31 @@ $(window).load(function () {
         <div class='content'></div>
         </div>
         </div>`);
-        $("body").append($div);
         divArray.push($div);
     }
+
+    for (let i = 0; i < divArray.length; i++) {
+        $(".cate_menu ul").children().eq(i).append(divArray[i]);
+
+    }
+
+
+
+
+    $(".cate_menu").on('mouseenter', 'li', function () {
+        $(".allItem").eq($(this).index()).show();
+    })
+
+
+    $(".cate_menu").on('mouseleave', 'li', function () {
+        $(".allItem").eq($(this).index()).hide();
+    })
+
+
+
+
+    // 创建元素
+
     // 每个li中的.content的p元素数量
     let contentNum = [9, 8, 9, 11, 6, 10, 9, 10, 10, 10, 12, 10, 9, 13, 10, 7, 13, 12];
     // 每个li中的.top的p元素数量
@@ -662,7 +671,7 @@ $(window).load(function () {
             "服饰",
             "企业购",
         ],
-        con:{
+        con: {
             0: [
                 "<a href='#'>女装 > </a>",
                 "<a href='#'>当季热卖</a>",
@@ -825,7 +834,7 @@ $(window).load(function () {
             ],
 
         }
-}
+    }
     $(".allItem .top").eq(0).html(`
     <p> ${data0.title[0]}> </p>
     <p> ${data0.title[1]}> </p>
@@ -987,98 +996,98 @@ $(window).load(function () {
     `)
     // 添加content下的a元素
     for (let i = 0; i < contentNum[0]; i++) {
-    for (let j in data0.con[i]) {
-        $(".allItem .content").eq(0).children().eq(i).append(data0.con[i][j]);
+        for (let j in data0.con[i]) {
+            $(".allItem .content").eq(0).children().eq(i).append(data0.con[i][j]);
+        }
     }
-}
 
-for (let i = 0; i < contentNum[1]; i++) {
-    for (let j in data1.con[i]) {
-        $(".allItem .content").eq(1).children().eq(i).append(data1.con[i][j]);
+    for (let i = 0; i < contentNum[1]; i++) {
+        for (let j in data1.con[i]) {
+            $(".allItem .content").eq(1).children().eq(i).append(data1.con[i][j]);
+        }
     }
-}
 
-for (let i = 0; i < contentNum[2]; i++) {
-    for (let j in data2.con[i]) {
-        $(".allItem .content").eq(2).children().eq(i).append(data2.con[i][j]);
+    for (let i = 0; i < contentNum[2]; i++) {
+        for (let j in data2.con[i]) {
+            $(".allItem .content").eq(2).children().eq(i).append(data2.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[3]; i++) {
-    for (let j in data4.con[i]) {
-        $(".allItem .content").eq(3).children().eq(i).append(data3.con[i][j]);
+    for (let i = 0; i < contentNum[3]; i++) {
+        for (let j in data4.con[i]) {
+            $(".allItem .content").eq(3).children().eq(i).append(data3.con[i][j]);
+        }
     }
-}
 
-for (let i = 0; i < contentNum[4]; i++) {
-    for (let j in data4.con[i]) {
-        $(".allItem .content").eq(4).children().eq(i).append(data4.con[i][j]);
+    for (let i = 0; i < contentNum[4]; i++) {
+        for (let j in data4.con[i]) {
+            $(".allItem .content").eq(4).children().eq(i).append(data4.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[5]; i++) {
-    for (let j in data0.con[i]) {
-        $(".allItem .content").eq(5).children().eq(i).append(data0.con[i][j]);
+    for (let i = 0; i < contentNum[5]; i++) {
+        for (let j in data0.con[i]) {
+            $(".allItem .content").eq(5).children().eq(i).append(data0.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[6]; i++) {
-    for (let j in data1.con[i]) {
-        $(".allItem .content").eq(6).children().eq(i).append(data1.con[i][j]);
+    for (let i = 0; i < contentNum[6]; i++) {
+        for (let j in data1.con[i]) {
+            $(".allItem .content").eq(6).children().eq(i).append(data1.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[7]; i++) {
-    for (let j in data2.con[i]) {
-        $(".allItem .content").eq(7).children().eq(i).append(data2.con[i][j]);
+    for (let i = 0; i < contentNum[7]; i++) {
+        for (let j in data2.con[i]) {
+            $(".allItem .content").eq(7).children().eq(i).append(data2.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[8]; i++) {
-    for (let j in data0.con[i]) {
-        $(".allItem .content").eq(8).children().eq(i).append(data0.con[i][j]);
+    for (let i = 0; i < contentNum[8]; i++) {
+        for (let j in data0.con[i]) {
+            $(".allItem .content").eq(8).children().eq(i).append(data0.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[7]; i++) {
-    for (let j in data4.con[i]) {
-        $(".allItem .content").eq(9).children().eq(i).append(data4.con[i][j]);
+    for (let i = 0; i < contentNum[7]; i++) {
+        for (let j in data4.con[i]) {
+            $(".allItem .content").eq(9).children().eq(i).append(data4.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[9]; i++) {
-    for (let j in data1.con[i]) {
-        $(".allItem .content").eq(10).children().eq(i).append(data1.con[i][j]);
+    for (let i = 0; i < contentNum[9]; i++) {
+        for (let j in data1.con[i]) {
+            $(".allItem .content").eq(10).children().eq(i).append(data1.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[11]; i++) {
-    for (let j in data2.con[i]) {
-        $(".allItem .content").eq(11).children().eq(i).append(data2.con[i][j]);
+    for (let i = 0; i < contentNum[11]; i++) {
+        for (let j in data2.con[i]) {
+            $(".allItem .content").eq(11).children().eq(i).append(data2.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[12]; i++) {
-    for (let j in data0.con[i]) {
-        $(".allItem .content").eq(12).children().eq(i).append(data0.con[i][j]);
+    for (let i = 0; i < contentNum[12]; i++) {
+        for (let j in data0.con[i]) {
+            $(".allItem .content").eq(12).children().eq(i).append(data0.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[13]; i++) {
-    for (let j in data4.con[i]) {
-        $(".allItem .content").eq(13).children().eq(i).append(data4.con[i][j]);
+    for (let i = 0; i < contentNum[13]; i++) {
+        for (let j in data4.con[i]) {
+            $(".allItem .content").eq(13).children().eq(i).append(data4.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[14]; i++) {
-    for (let j in data1.con[i]) {
-        $(".allItem .content").eq(14).children().eq(i).append(data1.con[i][j]);
+    for (let i = 0; i < contentNum[14]; i++) {
+        for (let j in data1.con[i]) {
+            $(".allItem .content").eq(14).children().eq(i).append(data1.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[15]; i++) {
-    for (let j in data2.con[i]) {
-        $(".allItem .content").eq(15).children().eq(i).append(data2.con[i][j]);
+    for (let i = 0; i < contentNum[15]; i++) {
+        for (let j in data2.con[i]) {
+            $(".allItem .content").eq(15).children().eq(i).append(data2.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[16]; i++) {
-    for (let j in data0.con[i]) {
-        $(".allItem .content").eq(16).children().eq(i).append(data0.con[i][j]);
+    for (let i = 0; i < contentNum[16]; i++) {
+        for (let j in data0.con[i]) {
+            $(".allItem .content").eq(16).children().eq(i).append(data0.con[i][j]);
+        }
     }
-}
-for (let i = 0; i < contentNum[17]; i++) {
-    for (let j in data4.con[i]) {
-        $(".allItem .content").eq(17).children().eq(i).append(data4.con[i][j]);
+    for (let i = 0; i < contentNum[17]; i++) {
+        for (let j in data4.con[i]) {
+            $(".allItem .content").eq(17).children().eq(i).append(data4.con[i][j]);
+        }
     }
-}
 });
 
 

@@ -110,11 +110,15 @@ a {
     color: red;
 }
 
-.dis_ul li .ad button {
+.dis_ul li .ad .button {
+    display: inline-block;
     width: 100px;
     height: 40px;
     border: 0;
     background-color: red;
     color: white;
     cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 900;
 }
